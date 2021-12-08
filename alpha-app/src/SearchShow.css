@@ -1,0 +1,31 @@
+.search{
+    background-color:#111;
+    margin-top: 60px;
+    padding-top: 10px;
+    
+}
+.search_poster{
+    height: 320px;
+    object-fit: contain;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.search_poster:hover{
+    transform: scale(1.10);
+    transition: transform ease-in-out 0.7ms;
+}
+.search_data{
+    margin:10px;
+}
+.search_title{
+    margin:auto;
+    color: white;
+}
+.search_fadeTop{
+    position: fixed;
+    top: 0;
+    background: black;
+    height: 60px;
+    width:100%;
+    z-index: 1;
+}

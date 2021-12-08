@@ -9,5 +9,6 @@ fetchComedyMovies:`/discover/movie?api_key=${API_Key}&with_genres=35`,
 fetchHorrorMovies:`/discover/movie?api_key=${API_Key}&with_genres=27`,
 fetchRomanceMovies:`/discover/movie?api_key=${API_Key}&with_genres=10749`,
 fetchDocumentaries:`/discover/movie?api_key=${API_Key}&with_genres=99`,
+fetchSearchResults:`/search/movie?api_key=${API_Key}&language=en-US&include_adult=false`,
 }
 export default requests;

@@ -1,25 +1,51 @@
 .nav_logo{
    width: 80px;
+   height: 35px;
     object-fit: contain;
     background-color: transparent;
 }
 .nav_avatar{
-    width: 25px;
+    width: 30px;
+    height: 35px;
     object-fit: contain;
     float: right;
     margin-right: 15px;
 }
 .nav {
-background-color: transparent;
-position: fixed;
-top: 0;
-width: 100%;
-height: 30px;
-padding: 10px;
-z-index: 1;
-}
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    z-index: 2;
+    /* display: flex; */
+    /* justify-content: space-between; */
+    }
 .nav_black{
     background-color: black;
     transition-timing-function: ease-in-out;
     transition: all 1ms;
+}
+
+
+.nav_searchbar{
+    position: absolute;
+    left:45vw;
+    background-color:rgba(44, 38, 38, 0.75);
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    color: white;
+    height: 25px;
+    padding: 5px 20px;
+    width: 40vw;
+}
+.nav_searchIcon{
+    position: absolute;
+    left:85.5vw;
+    padding-top: 2px;
+    width: 30px;
+    height:30px;
+    object-fit: contain;
 }
