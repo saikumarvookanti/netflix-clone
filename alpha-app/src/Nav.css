@@ -1,0 +1,25 @@
+.nav_logo{
+   width: 80px;
+    object-fit: contain;
+    background-color: transparent;
+}
+.nav_avatar{
+    width: 25px;
+    object-fit: contain;
+    float: right;
+    margin-right: 15px;
+}
+.nav {
+background-color: transparent;
+position: fixed;
+top: 0;
+width: 100%;
+height: 30px;
+padding: 10px;
+z-index: 1;
+}
+.nav_black{
+    background-color: black;
+    transition-timing-function: ease-in-out;
+    transition: all 1ms;
+}

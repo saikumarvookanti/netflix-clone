@@ -1,0 +1,80 @@
+.login{
+    height: 100%;
+    min-height: 100vh;
+    object-fit: contain;
+    background-size: cover;
+    overflow: hidden;
+    opacity: 1;
+    
+}
+.backgroundLayer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 100%;
+    min-width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.logo{
+    fill: #e50914;
+    object-fit: contain;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+}
+.netflix_logo{
+    height: 40px;
+}
+.signIn_box{
+    margin: 50px auto;
+    background:rgba(0, 0, 0, 0.75);
+    border-radius: 4px;
+    padding: 60px 68px 40px;
+    width: 450px;
+    min-height: 450px;
+}
+.signIn_label{
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.signIn_input{
+    width: 100%;
+    padding:4px 20px;
+    margin:10px 0px;
+    background-color: #333;
+    border:none;
+    border-radius: 5px;
+    height: 50px;
+    color: white;
+}
+.signIn_input:focus{
+    outline:none;
+    border:none;
+
+}
+.signIn_button{
+    width: 100%;
+    background-color: #e50914;
+    color: white;
+    margin:20px 5px ;
+    border: none;
+    border-radius: 4px;
+    height: 50px;
+}
+.login_remember{
+    color: #b3b3b3;
+    padding-left: 5px;
+}
+.login_needHelp {
+    color: #b3b3b3;
+    text-decoration: none;
+    float: right;
+}
+.login_needHelp:hover{
+    color: #b3b3b3;
+}
+.remember_checkbox input:checked ::before{
+    background-color: red;
+}
